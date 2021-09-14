@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="power gym signup page">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/sign-up.css">
+  <script src="../javascript/function2.js" defer></script>
+  <title>Sign Up</title>
+</head>
+<body>
+  
+  <header>   
+    <div class="header container">    
+      <nav>
+        <a href="../index.html">
+          <img src="../icons/logo.svg" alt="logo" id="logo">
+        </a>
+        
+        <ul class="ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/about.html" >About us</a></li>
+          <li><a href="../html/gallery.html">Gallery</a></li>
+          <li><a href="../html/blog.html" >Blog</a></li>
+          <li><a href="../html/contact.html" >Contact</a></li>                 
+          <a href="../html/free-trial.html " class="free-trial">Free Trial</a> 
+          
+          <button class="menu-btn">
+            <img src="../icons/menu-btn.svg" alt="menu button">
+          </button>
+        </ul>
+      </nav>  
+    </div>
+    
+    <section class="mobile-menu">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/about.html">About us</a></li>
+          <li><a href="../html/gallery.html">Gallery</a></li>
+          <li><a href="../html/blog.html">Blog</a></li>
+          <li><a href="../html/contact.html">Contact</a></li>                 
+          <li> <a href="../html/free-trial.html" class="free-trial">Free Trial</a></li>
+        </ul>
+      </nav> 
+      <button class="close-menu-btn">
+        <img src="../icons/close-btn.svg" alt="">
+      </button>
+    </section>
+  </header>  
+  
+  <main>
+    <section class="signup-form">
+      <div class="signup-group container">
+        
+        <div class="quote-3">
+          <p>From Small Beginnings come great things.</p>
+        </div>
+        
+        <form>
+          <h2>Sign Up</h2>
+          <label for="fname">Enter First Name</label>
+          <input type="text" id="fname" name="fname" autocomplete="off"  required>
+          
+          <label for="lname">Enter Last Name</label>
+          <input type="text" id="lname" name="lname" autocomplete="off"  required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="off" placeholder="You will use this to Sign In." required>
+          
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="off" placeholder="Passwords must be 6 - 20 characters in length." required>
+          
+          <label for="Cpassword">Confirm Password</label>
+          <input type="password" id="Cpassword" name="Cpassword" autocomplete="off"  required>
+          
+          <label for="Cnumber">Contact Number</label>
+          <input type="number" id="Cnumber" name="contact number" required>
+          
+          <label for="country">City</label>
+          <select id="country" name="country" required>
+            <option value="bangalore">Bangalore</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="new delhi">New Delhi</option>
+            <option value="pune">Pune</option>
+          </select>
+          
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          
+          <div class="updates">
+            <input type="checkbox" name="update" id="update">
+            <label for="update">Yes, send me emails on Power Gym Products, Services, &amp; Events.</label>
+          </div>
+          
+          <div class="captcha">
+            <input type="checkbox" name="robot" id="robot" required>
+            <label for="robot">I'm not a robot</label>
+            <img src="../icons/captcha.svg" alt="captcha-icon">
+          </div>
+          
+          <input type="submit" value="Join Now">
+        </form>
+      </div>
+    </section><!--     end of signup form     -->
+  </main>
+  
+  <footer>
+    <div class="footer-wrapper container">
+      <ul class="get-in-touch">
+        <h4>Get In Touch</h4>
+        <li class="contact">
+          <i class="far fa-envelope"></i>
+          <a href="#" >support@powergym.in</a>
+        </li>
+        
+        <li class="contact">
+          <i class="fas fa-mobile-alt "></i>
+          <p>+91 - 9877466843</p>
+        </li>
+        
+        <li class="contact">
+          <i class="fas fa-phone-alt"></i>
+          <p>022 - 2615 - 6125</p>
+        </li>
+        
+        <ul class="social-media2">
+          <li>
+            <a href="#">
+              <img src="../icons/instagram.svg" alt="instagram icon">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../icons/twitter.svg" alt="twitter icon">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../icons/youtube.svg" alt="youtube icon">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../icons/facebook.svg" alt="facebook icon">
+            </a>
+          </li>
+        </ul>
+      </ul>
+      
+      <ul class="quick-links">
+        <h4>Quick Links</h4>
+        <li><a href="../html/gallery.html">Gallery</a></li>
+        <li><a href="../html/about.html">About Us</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+        <li><a href="../html/blog.html">Blogs</a></li>
+      </ul>
+      
+      <ul class="customer-help ">
+        <h4>Customer Help</h4>
+        <li>
+          <a href="#">Return Policy</a>
+        </li>
+        <li>
+          <a href="#">Terms &amp; Conditions</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
+      
+      <div class="news-letter">
+        <h4>News Letter</h4>
+        <p>Sign up for our mailing list to get latest updates and offers.</p>
+        <form >
+          <input type="email" placeholder="Enter your email"  required>
+          <input type="submit" value="Submit" >
+        </form>
+        <p>&copy; 2021 Power Gym. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+  
+  <button id="myBtn"  title="Go to top">
+    <img src="../icons/top-link.svg" alt="top-link-icon">
+  </button>
+  
+</body>
+</html>

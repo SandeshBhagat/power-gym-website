@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Power Gym is a fitness and training centre which will help people to fulfil their health and fitness goals.">
+    <meta name="keywords" content="power gym,fitnes and training centre, fitness, gym, exercise, health, workout, muscle body">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/function.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Power Gym | Fitness and Training Centre | Official Website </title>
+</head>
+<body>
+    
+    <header>            
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="icons/logo.svg" alt="website logo" id="logo">
+                </a>
+                
+                <ul class="ul">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="html/about.html">About us</a></li>
+                    <li><a href="html/gallery.html">Gallery</a></li>
+                    <li><a href="html/blog.html">Blog</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>                 
+                    <a href="html/free-trial.html" class="free-trial-btn">Free Trial</a>   
+                    <button class="menu-btn">
+                        <img src="icons/menu-btn.svg" alt="menu button">
+                    </button>
+                </ul>
+            </nav>  
+            
+            <section class="header-intro">
+                <h1 class="title-main">Level Up Your <span>Power</span></h1>            
+                <p>Welcome to The Power Gym. We are a fitness and training centre that focuses on pushing you to your absolute limit.</p>
+                
+                <div class="intro-btns">
+                    <a href="html/sign-up.html" class="signup-btn">join now</a> 
+                    <a href="#" class="log-in-btn">Log in</a> 
+                </div>
+            </section>
+        </div>
+        
+        <div class="login-form ">            
+            
+            <form class = "form" >
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" autocomplete="off" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password"  required>
+                
+                <div class="remember-me">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                
+                <div class="captcha">
+                    <input type="checkbox" name="robot" id="robot" required>
+                    <label for="robot">I'm not a robot</label>
+                    <img src="icons/captcha.svg" alt="captcha image">
+                </div>
+                
+                <input type="submit" value="Log in">
+                
+                <div class="form-links">
+                    <a href="#" class="forgot-btn">Forgot Password?</a>
+                    <a href="html/sign-up.html">Sign Up</a>
+                </div>
+            </form>
+            
+            <button class="close-btn">
+                <img src="icons/close-btn.svg" alt="close button" >
+            </button>
+            
+            <div class="reset-password">
+                <form >
+                    <h2>Password Retrieval</h2>
+                    <p>Enter your email address below and we will send you a link to reset your password.</p>
+                    <label for="emailReset">Enter Email</label>
+                    <input type="email" id="emailReset" name="email" autocomplete="off" required>
+                    
+                    <input type="submit" value="Send">
+                    <a href="#" class="cancel-btn">Cancel</a>    
+                    
+                    <div class="form-links">
+                        <a href="#" class="sign-in">Sign In</a>
+                        <a href="html/sign-up.html">Sign Up</a>
+                    </div>
+                </form>
+            </div>
+        </div><!--     end of login-form     -->
+        
+        <section class="mobile-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="html/about.html">About us</a></li>
+                    <li><a href="html/gallery.html">Gallery</a></li>
+                    <li><a href="html/blog.html">Blog</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>                 
+                    <li> <a href="html/free-trial.html">Free Trial</a></li>
+                </ul>
+            </nav> 
+            <button class="close-menu-btn">
+                <img src="icons/close-btn.svg" alt="close button">
+            </button>
+        </section>
+    </header><!--     end of header     -->
+    
+    <main>
+        <section class="quote">
+            <div class="quote-text container">
+                <p>Don't Live to Exercise,<br>
+                    Exercise to Live.</p>
+                </div>
+            </section>
+            
+            <section class="success-stories ">
+                <div class="stories container">
+                    <div class="stories-intro">
+                        <h2>Success Stories</h2>
+                        <p>No matter what we won't let you down!</p>
+                    </div>
+                    
+                    <h3>Latest Stories</h3>
+                    <div class="stories-wrapper ">
+                        <div class="story-card">
+                            <img src="images/avatar-1.jpg" alt="avatar img">
+                            <p class="name">Nakul Singh</p>
+                            <p class="city">Bangalore</p>
+                            <p class="story-text">"Power Gym changed my life.Not only physically, but mentally as well. I am better..."</p>
+                            <a href="#">Read Story &#10095;</a>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="images/avatar-2.jpg" alt="avatar img">
+                            <p class="name">Rosy James</p>
+                            <p class="city">Delhi</p>
+                            <p class="story-text">"I started using the Power Gym and realized that I truly enjoyed working out. I noticed results.."</p>
+                            <a href="#">Read Story &#10095;</a>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="images/avatar-3.jpg" alt="avatar img">
+                            <p class="name">Navin Kumar</p>
+                            <p class="city">Mumbai</p>
+                            <p class="story-text">"When I weighed 370 lbs I felt so discouraged. Thank God for the Power Gym, after using..."</p>
+                            <a href="#">Read Story &#10095;</a>
+                        </div>
+                        
+                        <div class="story-card">
+                            <img src="images/avatar-4.jpg" alt="avatar img">
+                            <p class="name">Tanya Sharma</p>
+                            <p class="city">Pune</p>
+                            <p class="story-text">"I started noticing a difference almost right away with the Power Gym.The Power Gym... "</p>
+                            <a href="#">Read Story &#10095;</a>
+                        </div>
+                        
+                    </div>
+                    <button  class="read-all-btn">
+                        <a href="#">Read all &#10095; 
+                        </a>
+                    </button>
+                </div>
+            </section><!--     end of success stories     -->
+            
+            <section class="find-gym" id="find_gym">
+                <div class="wrapper container">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4860.068983207176!2d73.87144854357386!3d18.48917822515676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1629462058721!5m2!1sen!2sin" allowfullscreen loading="lazy" title="find gym map">
+                        </iframe>           
+                    </div>
+                    
+                    <form >
+                        <h2 class="input-title">Find Your Gym</h2>
+                        <label for="city">Enter Your City</label>
+                        <input type="text" id="city" required>
+                        
+                        <label for="zip-code">Enter Zip Code</label>
+                        <input type="number" id="zip-code" required>
+                        <input type="submit" value="Search">
+                    </form>
+                </div>
+            </section> <!--      end of find gym     --> 
+            
+            <section class="pricing" id="pricing">        
+                <div class="container">
+                    <div class="pricing-intro ">
+                        <h2>About Pricing - You Have Choices!</h2>
+                        <p>Whether you want month-to-month or our budget-friendly quarterly, half-yearly or yearly plan, you’ve got options.</p>
+                    </div>
+                    
+                    <div class="pricing-cards ">
+                        <div class="card">
+                            <h3>Monthly</h3>
+                            <p class="text">7 Day free trial, RS.1500 monthly thereafter</p>
+                            <p class="text-bill">Billed monthly</p>
+                            <small>Join Now and get 5% off</small>
+                            <a href="#">Start monthly</a>
+                        </div>
+                        
+                        <div class="card">
+                            <h3>Quarterly</h3>
+                            <p class="text">7 Day free trial, RS.4500 quarterly thereafter</p>
+                            <p class="text-bill">Billed quarterly</p>
+                            <small>Join Now and get 5% off</small>
+                            <a href="#">start quarterly</a>
+                        </div>
+                        
+                        <div class="card">
+                            <h3>Half-Yearly</h3>
+                            <p class="text">7 Day free trial, RS.7000 half-yearly thereafter</p>
+                            <p class="text-bill">Billed half-yearly</p>
+                            <small>Join Now and get 7% off</small>
+                            <a href="#">Get 1 month free</a>
+                        </div>
+                        
+                        <div class="card">
+                            <h3>Yearly</h3>
+                            <p class="text">7 Day free trial, RS.11500 yearly thereafter</p>
+                            <p class="text-bill">Billed yearly</p>
+                            <small>Join Now and get 10% off</small>
+                            <a href="#">Get 2 months free</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section> <!--     end of pricing     --> 
+            
+            <section class="support">
+                <div class="wrapper container">
+                    <div class="support-text">
+                        <h2>Your safety and Health is our first priority!</h2>
+                        <p>Our Experts will be always there to help you, if you need any kind of immediate medical attention during your workout session.</p>
+                    </div>
+                    
+                    <img src="icons/doctor.svg" alt="doctor image">
+                </div>                
+            </section><!--     end of support     --> 
+            
+            <section class="trainers ">
+                <div class="container">
+                    <div class="trainer-intro">
+                        <h2>Meet Our Trainers</h2>
+                        <p>Whether you're a fitness newbie or seasoned athlete,fitness coaches will take you to your next level.</p>
+                    </div>
+                    
+                    <div class="trainer-cards">
+                        <div class="card">
+                            <img src="images/trainer1.jpg" alt="gym trainer image" class="trainer-img">
+                            <h3 class="name">Faiyaz Ali</h3>
+                            <p class="city">Bangalore, Karnataka</p>
+                            <p class="profession">Fitness trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer2.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Akash jain</h3>
+                            <p class="city">Pune, maharashtra</p>
+                            <p class="profession">Fitness Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer3.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Dave Smith</h3>
+                            <p class="city">New Delhi</p>
+                            <p class="profession">Fitness Trainer, Fitness Model, Online Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer4.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Aarya Shah</h3>
+                            <p class="city">Mumbai, Maharashtra</p>
+                            <p class="profession">Fitness Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer5.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Arnav Gupta</h3>
+                            <p class="city">Mumbai, Maharashtra</p>
+                            <p class="profession">Fitness Trainer, Fitness Model, Online Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer6.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Darshit Dayal</h3>
+                            <p class="city">Bangalore, Karnataka</p>
+                            <p class="profession">Fitness Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer7.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Ishani Rao</h3>
+                            <p class="city">Pune, Maharashtra</p>
+                            <p class="profession">Fitness Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <img src="images/trainer8.jpg" alt="gym trainer image"  class="trainer-img">
+                            <h3 class="name">Emma Wilson</h3>
+                            <p class="city">New Delhi</p>
+                            <p class="profession">Fitness Trainer, Fitness Model, Online Trainer</p>
+                            
+                            <div class="social-media">
+                                <a href="#"><img src="icons/twitter2.svg" alt="twitter icon"></a>
+                                <a href="#"><img src="icons/instagram2.svg" alt="instagram icon"></a>
+                                <a href="#"><img src="icons/youtube2.svg" alt="youtube icon"></a>
+                                <a href="#"><img src="icons/facebook2.svg" alt="youtube icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <img src="icons/down-angle.png" alt="down arrow" data-aos="fade-down">
+                </button>
+            </section><!--     end of trainers     --> 
+            
+            <section class="get-app">
+                <div class="wrapper container">
+                    <div class="app-text">
+                        <h2>Anywhere you go, we'll be there!</h2>
+                        <div class="list">
+                            <ul class="one">
+                                <li>Unlimited 24/7 access to 200+ videos</li>
+                                <li>New workouts added weekly</li>
+                                <li>Adaptable to your goals on your time</li>
+                            </ul>
+                            <ul class="two">
+                                <li>Make Personal Training Appointment </li>
+                                <li>Manage Your Account</li>
+                                <li>View Class Schedules and More!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="app-phone">
+                        <div class="get-text">
+                            <h2>Get The App </h2>
+                            <a href="#">
+                                <img src="icons/PowerGymApp.svg" alt="">
+                            </a>
+                        </div>
+                        <img src="images/mobile.png"  alt="">
+                    </div>
+                </div>
+            </section><!--     end of get app     --> 
+        </main><!--     end of main     --> 
+        
+        <footer>
+            <div class="footer-wrapper container">
+                <ul class="get-in-touch">
+                    <h4>Get In Touch</h4>
+                    <li class="contact">
+                        <i class="far fa-envelope"></i>
+                        <a href="#" >support@powergym.in</a>
+                    </li>
+                    
+                    <li class="contact">
+                        <i class="fas fa-mobile-alt "></i>
+                        <p>+91 - 9877466843</p>
+                    </li>
+                    
+                    <li class="contact">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>022 - 2615 - 6125</p>
+                    </li>
+                    
+                    <ul class="social-media2">
+                        <li>
+                            <a href="#">
+                                <img src="icons/instagram.svg" alt="instagram icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons/twitter.svg" alt="twitter icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons/youtube.svg" alt="youtube icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="icons/facebook.svg" alt="facebook icon">
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+                
+                <ul class="quick-links">
+                    <h4>Quick Links</h4>
+                    <li><a href="html/gallery.html">Gallery</a></li>
+                    <li><a href="html/about.html">About Us</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#find_gym">Find a Gym</a></li>
+                </ul>
+                
+                <ul class="customer-help ">
+                    <h4>Customer Help</h4>
+                    <li>
+                        <a href="#">Return Policy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms &amp; Conditions</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+                
+                <div class="news-letter">
+                    <h4>News Letter</h4>
+                    <p>Sign up for our mailing list to get latest updates and offers.</p>
+                    <form >
+                        <input type="email" placeholder="Enter your email"  required>
+                        <input type="submit" value="Submit" >
+                    </form>
+                    <p>&copy; 2021 Power Gym. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+        
+        <button id="myBtn"  title="Go to top">
+            <img src="icons/top-link.svg" alt="top-link-icon">
+        </button>
+
+    </body>
+    </html>

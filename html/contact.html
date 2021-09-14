@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="power gym contact page">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="../css/contact.css">
+  <script src="../javascript/function2.js" defer></script>
+  <title>Contact</title>
+</head>
+<body>
+
+  <header>   
+    <div class="container">   
+      <nav>
+        <a href="../index.html">
+          <img src="../icons/logo.svg" alt="logo" id="logo">
+        </a>
+
+        <ul class="ul">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../html/about.html" >About us</a></li>
+          <li><a href="../html/gallery.html">Gallery</a></li>
+          <li><a href="../html/blog.html" >Blog</a></li>
+          <li><a href="../html/contact.html" class="active">Contact</a></li>                 
+          <a href="../html/sign-up.html" class="join-now">Join Now</a>         
+          <a href="../html/free-trial.html " class="free-trial ">Free Trial</a>  
+          
+          <button class="menu-btn">
+            <img src="../icons/menu-btn.svg" alt="menu button">
+          </button>
+        </ul>
+        
+      </nav>  
+    </div>
+    
+    <section class="mobile-menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="../html/about.html">About us</a></li>
+          <li><a href="../html/gallery.html">Gallery</a></li>
+          <li><a href="../html/blog.html">Blog</a></li>
+          <li><a href="../html/contact.html" class="active">Contact</a></li>                 
+          <li> <a href="../html/free-trial.html" class="free-trial">Free Trial</a></li>
+          <li>
+            <a href="../html/sign-up.html" class="join-now">Join Now</a> 
+          </li>
+        </ul>
+      </nav> 
+      <button class="close-menu-btn">
+        <img src="../icons/close-btn.svg" alt="close button">
+      </button>
+    </section>
+  </header>
+  
+  <main>
+    <section class="contact-intro">
+      <h1>Contact Power Gym</h1>
+      <p>we'd love to hear from you</p>
+    </section>
+    
+    <section class="contact-wrapper">
+      <div class="contact-group ">
+        <div class="contact-inner container">
+          <div class="contact-text">
+            <h2>If You Have Any Query Related Anything Then Please Feel Free to Contact Us.</h2>
+          </div>
+          
+          <div class="contact-form">    
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="off" required>
+              
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="off"  required>
+              
+              <label for="Cnumber">Contact Number</label>
+              <input type="number" id="Cnumber" name="contact number"  required>
+              
+              <label for="country">City</label>
+              <select id="country" name="country" required>
+                <option value="bangalore">Bangalore</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="new delhi">New Delhi</option>
+                <option value="pune">Pune</option>
+              </select>
+              
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write Your Message..." required></textarea>
+              
+              <div class="captcha">
+                <input type="checkbox" name="robot" id="robot" required>
+                <label for="robot">I'm not a robot</label>
+                <img src="../icons/captcha.svg" alt="captcha-icon">
+              </div>
+              <input type="submit" value="Submit" class="submitBtn">
+            </form>
+          </div>
+          
+        </div><!--     end of contact inner     -->
+      </div><!--     end of contact-group     -->      
+      
+      <section class="map-address">
+        <div class="map-address-group container">
+          <h2>Visit Us</h2>
+          
+          <div class="address">
+            <div class="address-group">
+              <p class="city">Bangalore</p>
+              <p class="city-address"><span>Address : </span> 2nd Floor, JK Plaza, 12th Main Rd, HAL 2nd Stage, Bengaluru, Karnataka 560038</p>
+              <p class="gym-contact"><span>Contact :</span> 080 - 2615 - 6125                
+              </p>
+            </div>
+            
+            <div class="address-group">
+              <p class="city">Pune</p>
+              <p class="city-address"><span>Address : </span> 333-271, T Saheb KK Marg, Shaniwar Peth, Pune, Maharashtra 411030</p>
+              <p class="gym-contact"><span>Contact :</span> 020 - 2615 - 6126     
+              </p>
+            </div>
+            
+            <div class="address-group">
+              <p class="city">Mumbai</p>
+              <p class="city-address"><span>Address : </span> Supreme City, Supreme Business Park, Hiranandani Gardens, Powai, Mumbai, Maharashtra 400076</p>
+              <p class="gym-contact"><span>Contact :</span> 022 - 2615 - 6127     
+              </p>
+            </div>
+            
+            <div class="address-group">
+              <p class="city">New Delhi</p>
+              <p class="city-address"><span>Address : </span>Basant Lok, Priya Community Centre Above HSBC Bank, Vasant Vihar, New Delhi, Delhi 110070</p>
+              <p class="gym-contact"><span>Contact :</span> 011 - 2615 - 6128                
+              </p>
+            </div>
+          </div>
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4860.068983207176!2d73.87144854357386!3d18.48917822515676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1629462058721!5m2!1sen!2sin" allowfullscreen loading="lazy">
+          </iframe>
+        </div><!--     end of map address-group     -->
+      </section><!--     end of map address     -->
+    </section><!--     end of contact wrapper     -->
+  </main>
+  
+  <footer>
+    <div class="footer-wrapper container">
+      <ul class="get-in-touch">
+        <h4>Get In Touch</h4>
+        <li class="contact">
+          <i class="far fa-envelope"></i>
+          <a href="#" >support@powergym.in</a>
+        </li>
+        
+        <li class="contact">
+          <i class="fas fa-mobile-alt "></i>
+          <p>+91 - 9877466843</p>
+        </li>
+        
+        <li class="contact">
+          <i class="fas fa-phone-alt"></i>
+          <p>022 - 2615 - 6125</p>
+        </li>
+        
+        <ul class="social-media2">
+          <li>
+            <a href="#">
+              <img src="../icons/instagram.svg" alt="instagram icon">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../icons/twitter.svg" alt="twitter icon">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../icons/youtube.svg" alt="youtube icon">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../icons/facebook.svg" alt="facebook icon">
+            </a>
+          </li>
+        </ul>
+      </ul>
+      
+      <ul class="quick-links">
+        <h4>Quick Links</h4>
+        <li><a href="../html/gallery.html">Gallery</a></li>
+        <li><a href="../html/about.html">About Us</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+        <li><a href="../html/blog.html">Blogs</a></li>
+      </ul>
+      
+      <ul class="customer-help ">
+        <h4>Customer Help</h4>
+        <li>
+          <a href="#">Return Policy</a>
+        </li>
+        <li>
+          <a href="#">Terms &amp; Conditions</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
+      
+      <div class="news-letter">
+        <h4>News Letter</h4>
+        <p>Sign up for our mailing list to get latest updates and offers.</p>
+        <form >
+          <input type="email" placeholder="Enter your email"  required>
+          <input type="submit" value="Submit" >
+        </form>
+        <p>&copy; 2021 Power Gym. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>   
+  
+  <button id="myBtn"  title="Go to top">
+    <img src="../icons/top-link.svg" alt="top-link-icon">
+  </button>
+  
+</body>
+</html>
